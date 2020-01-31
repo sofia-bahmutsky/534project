@@ -11,12 +11,16 @@ library(jsonlite)
 #' weatherstack_api(api_key,"London, United Kingdom","f")
 
 weatherstack_api <- function(api_key,location,units) {
+  # setting up the url to access the api
   domain<- "http://api.weatherstack.com/"
   endpoint <- "current"
   params<-list(access_key =api_key,query=location,units=units)
   url <- modify_url(paste(domain,endpoint,sep =""),query = params)
+  #post request api
   resp<- POST(url)
+  #convert the data to json format
   resp_json <- fromJSON(content(resp, "text"),flatten = TRUE)
+  #convert to dataframe
   df <- t(as.data.frame(resp_json))
   return(df)
 }
