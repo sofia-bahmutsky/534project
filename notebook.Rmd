@@ -13,13 +13,16 @@ Notebook for tracking the 534 project
 
 Jan 26: We attempted to register for car2go API, and Google Maps. However, car2og did not grant access for unknown reasons, and Google Maps is not free. We could not proceed with our original ideas, and decided to think of something else.
 
-Jan 27: Spoke to Dr. Narayan todat about the issues we are facing. He told us to consider our other ideas, we want to use a weather or climate API data to compare and track changes in climate and weather across Canada. We emailed Dr. Narayan our new proposal, he said it was good to start working on it.
+Jan 27: Spoke to Dr. Narayan today about the issues we are facing. He told us to consider our other ideas, we want to use a weather or climate API data to compare and track changes in climate and weather across Canada. We emailed Dr. Narayan our new proposal, he said it was good to start working on it.
 
 Jan 27 evening: research about possible apis to use, we found weatherstack.com which is free and very comprehensive. We also found some useful R libraries for plotting of the style which we are hoping to do.
 
 Jan 30: Split up the wrapper project, into half for each of us to work on. First we will each connect to 2 of the 4 API functions.
 
 Jan 30: 4pm, we need to pay for the API...it will be $5.50 each. I am working on the package developing portion, vignettes, and documnetation for now, after I created mywrapper function.
+
+Jan 30: making the documentation is really annoying it broke my entire RStudio and I lost all my work. This is because the RProject is not very good and difficult to understand
+
 
 
 
