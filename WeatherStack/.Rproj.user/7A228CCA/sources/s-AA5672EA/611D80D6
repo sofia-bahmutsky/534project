@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1580432324104.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "611D80D6",
+    "lastKnownWriteTime" : 1580435907,
+    "last_content_update" : 1580435907795,
+    "path" : "~/WeatherStack/man/WeatherStack.Rd",
+    "project_path" : "man/WeatherStack.Rd",
+    "properties" : {
+        "cursorPosition" : "20,10",
+        "scrollLine" : "8",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}
