@@ -19,6 +19,8 @@ Jan 27 evening: research about possible apis to use, we found weatherstack.com w
 
 Jan 30: Split up the wrapper project, into half for each of us to work on. First we will each connect to 2 of the 4 API functions.
 
+Jan 30: 4pm, we need to pay for the API...it will be $5.50 each. I am working on the package developing portion, vignettes, and documnetation for now, after I created mywrapper function.
+
 
 
 ## Friday, Jan 24
