@@ -1,16 +1,16 @@
 library(httr)
 library(jsonlite)
 #' Get real-time weather data in a location of your choice.
-#' 
+#'
 #' @param api_key Your API access key, which can be found in your acccount dashboard.
-#' @param location pass a single location 
+#' @param location pass a single location
 #' @param unit this parameter to pass one of the unit identifiers ot the API:m for Metric(	temperature: Celsius); s for Scientific(temperature: Kelvin); f for Fahrenheit
 #' @return datframe contain current weather information.
 #' @examples
-#' weatherstack_api(api_key,"New York","m")
-#' weatherstack_api(api_key,"London, United Kingdom","f")
+#' weatherstack_current(api_key,"New York","m")
+#' weatherstack_current(api_key,"London, United Kingdom","f")
 
-weatherstack_api <- function(api_key,location,units) {
+weatherstack_current <- function(api_key,location,units) {
   # setting up the url to access the api
   domain<- "http://api.weatherstack.com/"
   endpoint <- "current"

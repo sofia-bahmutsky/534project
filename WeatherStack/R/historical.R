@@ -2,16 +2,16 @@ library(httr)
 library(jsonlite)
 library(stringr)
 #' Get historical time-series results of weather data.
-#' 
+#'
 #' @param api_key Your API access key, which can be found in your acccount dashboard.
-#' @param location pass a single location 
+#' @param location pass a single location
 #' @param historical_date_start a start date for the current historical time-series request.
 #' @param historical_date_end an end date for the current historical time-series request.
 #' @return datframe contain time series weather information
 #' @examples
-#' weatherstack_api(api_key,"New York","2015-01-21","2015-01-25")
+#' weatherstack_historical(api_key,"New York","2015-01-21","2015-01-25")
 
-weatherstack_api <- function(api_key,location,historical_date_start,historical_date_end) {
+weatherstack_historical <- function(api_key,location,historical_date_start,historical_date_end) {
   # setting up the url to access the api
   domain<- "http://api.weatherstack.com/"
   endpoint <- "historical"
@@ -35,4 +35,3 @@ weatherstack_api <- function(api_key,location,historical_date_start,historical_d
 
 
 
- 
